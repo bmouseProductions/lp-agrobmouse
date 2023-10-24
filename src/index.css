@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /*     font-family: 'Inter', sans-serif; */
+  font-family: "Poppins", sans-serif !important;
+}
+
+hr {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, transparent, #99cc33, transparent) 1;
+  width: 100% !important;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  hr {
+    width: 80% !important;
+  }
+}
+
+.bg-gradient-black {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #5e5e5e -78.47%,
+    #000000 91.61%
+  );
+}
+
+.img-hero {
+  -webkit-clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.drone {
+  position: relative;
+  animation: mover 5s infinite alternate;
+  filter: drop-shadow(30px 10px 4px #00000085);
+}
+
+.drone-mobile {
+  position: relative;
+  animation: mover-mobile 5s infinite alternate;
+  filter: drop-shadow(30px 10px 4px #00000085);
+}
+
+.garantia {
+  filter: drop-shadow(10px 0px 4px #00000091);
+}
+
+@keyframes mover {
+  0% {
+    left: 0;
+    transform: scale(1.2);
+  }
+  50% {
+    left: 25%;
+    transform: scale(1.5);
+  }
+  100% {
+    left: 50%;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes mover-mobile {
+  0% {
+    left: 0;
+    transform: scale(1.5);
+  }
+  50% {
+    left: 25%;
+    transform: scale(2);
+  }
+  100% {
+    left: 45%;
+    transform: scale(1.5);
+  }
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: progress;
+}
+body.carregando {
+  overflow: hidden;
+}
+.loading.ocultar {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.loading > svg {
+  width: 100%;
+  max-width: 300px;
+}
+/* .loading svg path {
+  fill: #dc0073;
+  opacity: 0;
+} */
+.loading > svg path.um {
+  animation: opacidade 30s linear infinite;
+  animation-delay: 0.2s;
+}
+.loading > svg path.dois {
+  animation: opacidade 30s linear infinite;
+  animation-delay: 0.4s;
+}
+.loading > svg path.tres {
+  animation: opacidade 30s linear infinite;
+  animation-delay: 0.6s;
+}
+/* Animations */
+@keyframes opacidade {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.1;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
