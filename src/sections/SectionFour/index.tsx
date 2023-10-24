@@ -61,7 +61,7 @@ export const SectionFour = () => {
             alt="Rato Bmouse"
           /> */}
           <div className="flex items-center justify-center ">
-            <Player autoplay loop src={Animation} className=" " />
+            <Player autoplay loop src={Animation} className="!w-[180%] " />
           </div>
 
           <Timeline className="lg:w-[100%] mt-10">

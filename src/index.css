@@ -7,6 +7,10 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+body, html{
+  overflow-x: hidden !important;
+}
+
 hr {
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, transparent, #99cc33, transparent) 1;
