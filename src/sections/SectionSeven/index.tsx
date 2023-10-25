@@ -31,7 +31,7 @@ const info = [
     img: Programacao,
   },
   {
-    text: "Assessoria em eventos, com criação de todo material necessário para destacar a sua presença, como modelo de stand, papelaria, banners, dentre outros;",
+    text: "Assessoria em eventos, com criação de todo material necessário para destacar a sua presença, como modelo de stand, papelaria, banners, dentre outros.",
     img: Marketing,
   },
 ];
