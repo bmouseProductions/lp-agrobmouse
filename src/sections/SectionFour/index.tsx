@@ -41,19 +41,22 @@ export const SectionFour = () => {
   return (
     <section className="bg-[#181b1f] ">
       <div className="container px-3 m-auto py-20 flex flex-col gap-5 items-center justify-center">
-        <h1 className="text-2xl text-center leading-[2.125rem]  md:leading-[3rem]  md:text-4xl 2xl:text-[2.5rem] 2xl:leading-[3.5rem] text-white w-full md:w-[80%]">
-          {" "}
-          <strong className="text-[#99CC33]">Muitas campanhas </strong>
-          produzidas e realizadas para clientes do{" "}
-          <strong className="text-[#99CC33]">agronegócio </strong>
-          no Brasil.
-        </h1>
-        <p className="text-white text-center text-base md:text-xl">
-          Veja os benefícios que a BMouse oferece:
-        </p>
-        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5 pt-10">
+        <div className="relative z-50">
+          <h1 className="text-2xl text-center leading-[2.125rem]  md:leading-[3rem]  md:text-4xl 2xl:text-[2.5rem] 2xl:leading-[3.5rem] text-white w-full md:w-[80%]">
+            {" "}
+            <strong className="text-[#99CC33]">Muitas campanhas </strong>
+            produzidas e realizadas para clientes do{" "}
+            <strong className="text-[#99CC33]">agronegócio </strong>
+            no Brasil.
+          </h1>
+          <p className="text-white text-center text-base md:text-xl">
+            Veja os benefícios que a BMouse oferece:
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5 pt-20 lg:pt-24">
           
-          <div className="w-full h-full relative flex items-end justify-center pt-8 lg:pt-14">
+          <div className="w-full h-full relative flex items-end justify-center ">
             <div className="relative z-50   ">
               <img
                 className="w-full md:max-w-xl lg:max-w-2xl xl:w-full mx-auto"
@@ -66,7 +69,7 @@ export const SectionFour = () => {
             </div>
             
 
-            <div className="flex items-center justify-center absolute top-[-50px] left-[-50px] md:top-[-250px] md:left-[-120px] lg:top-[-250px] lg:left-[0px] xl:top-[-100px] xl:left-[-230px]  2xl:top-[-200px] 2xl:left-[-300px] ">
+            <div className="flex items-center justify-center z-0 absolute top-[-50px] left-[-50px] md:top-[-250px] md:left-[-120px] lg:top-[-250px] lg:left-[0px] xl:top-[-100px] xl:left-[-230px]  2xl:top-[-200px] 2xl:left-[-300px] ">
               <Player autoplay loop src={Animation} className="w-[110%] md:!w-[900px] md:!h-[900px] lg:!w-[1050px] lg:!h-[1050px] xl:!w-[1000px] xl:!h-[1000px] 2xl:!w-[1200px] 2xl:!h-[1200px] " />
             </div>
 
