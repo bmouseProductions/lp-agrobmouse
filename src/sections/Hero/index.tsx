@@ -43,7 +43,7 @@ export const Hero = () => {
             className="h-[500px]  img-hero !bg-cover"
           />
         </div>
-        <div className="absolute top-12 right-[20%] z-40 w-[350px] hidden lg:block xl:hidden bg-brown-500">
+        <div className="absolute top-12 right-[20%] z-40 w-[350px] hidden lg:block xl:hidden ">
           <img src={Drone} alt="drone" className="drone !w-[250px]" />
         </div>
 

@@ -5,7 +5,7 @@ import Marketing from "../../assets/image/icons/mktoff-d75729ca.svg";
 import Criacao from "../../assets/image/icons/produtosdigitais-691a283a.svg";
 /* import Assessoria from "../../assets/image/icons/assessoria-67a09c85.svg"; */
 import MakertingDigital from "../../assets/image/icons/mktdigital-13767259.svg";
-/* import Programacao from "../../assets/image/icons/dev-25bd6d6a.svg"; */
+import Programacao from "../../assets/image/icons/dev-25bd6d6a.svg";
 import Elaboracao from "../../assets/image/icons/estrategica-a0abaa8f.svg";
 /* import Garantia from "../../assets/image/Garantia/garantia.png"; */
 
@@ -25,6 +25,10 @@ const info = [
   {
     text: "Endomarketing assertivo que motiva e aproxima os colaboradores, gerando menos rotatividade no time;",
     img: Elaboracao,
+  },
+  {
+    text: "Criação de sites e LPs que destacam sua empresa, produtos e serviços, proporcionando maior visibilidade no mundo digital;",
+    img: Programacao,
   },
   {
     text: "Assessoria em eventos, com criação de todo material necessário para destacar a sua presença, como modelo de stand, papelaria, banners, dentre outros;",

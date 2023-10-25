@@ -43,14 +43,10 @@ export const SectionFour = () => {
       <div className="container px-3 m-auto py-20 flex flex-col gap-5 items-center justify-center">
         <h1 className="text-2xl text-center leading-[2.125rem]  md:leading-[3rem]  md:text-4xl 2xl:text-[2.5rem] 2xl:leading-[3.5rem] text-white w-full md:w-[80%]">
           {" "}
-          <strong className="text-[#99CC33]">Muitas campanhas </strong>
-          produzidas e realizadas para clientes do{" "}
-          <strong className="text-[#99CC33]">agronegócio </strong>
-          no Brasil.
+          <strong className="text-[#99CC33]">Veja os benefícios </strong>
+          que a BMouse oferece:
         </h1>
-        <p className="text-white text-center text-base md:text-xl">
-          Veja os benefícios que a BMouse oferece:
-        </p>
+
         <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5">
           {/*  <img
             className="lg:w-[50%] xl:w-[45%] 2xl:w-[500px] mx-auto"
