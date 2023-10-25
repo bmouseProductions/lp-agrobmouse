@@ -10,8 +10,8 @@ import {
   /*   Button, */
 } from "@material-tailwind/react";
 /* import Rato from "../../assets/image/rato.webp"; */
-/* import Rato from "../../assets/image/agromouse.png"; */
-import Animation from "../../assets/animation/Animation.json";
+ import Rato from "../../assets/image/agromouse.png"; 
+import Animation from "../../assets/animation/AgroMouse.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 const info = [
@@ -51,19 +51,27 @@ export const SectionFour = () => {
         <p className="text-white text-center text-base md:text-xl">
           Veja os benefícios que a BMouse oferece:
         </p>
-        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5">
-          {/*  <img
-            className="lg:w-[50%] xl:w-[45%] 2xl:w-[500px] mx-auto"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            data-aos-anchor-placement="bottom-bottom"
-            src={Rato}
-            alt="Rato Bmouse"
-          /> */}
-          <div className="flex items-center justify-center ">
-            <Player autoplay loop src={Animation} className="!w-[180%] " />
+        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5 pt-10">
+          
+          <div className="w-full h-full relative flex items-end justify-center pt-8 lg:pt-14">
+            <div className="relative z-50   ">
+              <img
+                className="w-full md:max-w-xl lg:max-w-2xl xl:w-full mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                data-aos-anchor-placement="bottom-bottom"
+                src={Rato}
+                alt="Rato Bmouse"
+              />
+            </div>
+            
+
+            <div className="flex items-center justify-center absolute top-[-50px] left-[-50px] md:top-[-250px] md:left-[-120px] lg:top-[-250px] lg:left-[0px] xl:top-[-100px] xl:left-[-230px]  2xl:top-[-200px] 2xl:left-[-300px] ">
+              <Player autoplay loop src={Animation} className="w-[110%] md:!w-[900px] md:!h-[900px] lg:!w-[1050px] lg:!h-[1050px] xl:!w-[1000px] xl:!h-[1000px] 2xl:!w-[1200px] 2xl:!h-[1200px] " />
+            </div>
+
           </div>
-          <div>
+          <div className="relative z-50 ">
             <Timeline className="lg:w-[100%] mt-10">
             {info.map((item, index) => {
               return (
