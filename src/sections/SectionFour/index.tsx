@@ -63,8 +63,8 @@ export const SectionFour = () => {
           <div className="flex items-center justify-center ">
             <Player autoplay loop src={Animation} className="!w-[180%] " />
           </div>
-
-          <Timeline className="lg:w-[100%] mt-10">
+          <div>
+            <Timeline className="lg:w-[100%] mt-10">
             {info.map((item, index) => {
               return (
                 <TimelineItem
@@ -95,6 +95,8 @@ export const SectionFour = () => {
               );
             })}
           </Timeline>
+          </div>
+          
         </div>
 
         <div className="w-[100%] md:w-[50%] m-auto">
