@@ -87,7 +87,10 @@ export const SectionThree = () => {
           className="w-full h-[50px]"
         />
 
-        <Slider {...settings} className="hidden md:block w-[50%]  h-full ">
+        <Slider
+          {...settings}
+          className="hidden md:block md:w-[80%] 2xl:w-[50%]  h-full "
+        >
           {info.map((item, index) => (
             <div key={index}>
               <div className="bg-black rounded-3xl p-3 flex flex-col gap-4 items-center justify-center h-[420px]">
