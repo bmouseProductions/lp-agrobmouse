@@ -7,7 +7,8 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-body, html{
+body,
+html {
   overflow-x: hidden !important;
 }
 
@@ -164,17 +165,11 @@ body.carregando {
     opacity: 1;
   }
 }
+/* .slick-prev {
+  display: none !important;
+}
 
 .slick-next {
   display: none !important;
 }
-
-.slick-prev {
-  display: none !important;
-}
-
-/*
-#static{
-  width: 1200px;
-  height: 1200px;
-}*/
+ */
