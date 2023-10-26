@@ -76,7 +76,7 @@ export const SectionThree = () => {
           <strong className="text-[#99CC33]"> Agronegócio no Brasil.</strong>
         </h1>
         <p className="text-white">
-          Deslize para o lado e veja nossos trabalhos
+          Deslize para o lado e confira alguns de nossos trabalhos para o Agro.
         </p>
 
         <Player
