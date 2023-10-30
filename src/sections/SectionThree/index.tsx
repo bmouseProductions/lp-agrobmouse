@@ -30,38 +30,38 @@ export const SectionThree = () => {
   const info = [
     {
       logo: Patense,
-      text: "Com mais de 50 anos de história, a Patense é uma marca consolidada no mercado, mas o marketing impulsionou sua trajetória de crescimento.",
-      link: "https:www.google.com",
+      text: `Com mais de 50 anos de história, a Patense é uma marca consolidada no mercado, mas o marketing impulsionou sua trajetória de crescimento. A BMouse trabalha com um planejamento anual completo para todo o Grupo, desenvolvendo estratégias para redes sociais, impulsionamento e campanhas mensais. Além disso, fornecemos apresentações em português, inglês e espanhol, assessoria e cobertura de eventos.`,
+      link: "https://www.bmouseproductions.com/view/post_type_case/patense/",
     },
     {
       logo: NeoGenetics,
       text: "No ramo da piscicultura, a BMouse tem uma parceria consolidada com a NeoGenetics, que se baseia em princípios sólidos de inovação e excelência. Através de estratégias de marketing personalizadas, criamos conteúdos que destacam a sua diferenciação e se alinham à sua visão de mercado.",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/neo-genetics/",
     },
     {
       logo: WHG,
       text: "Em nossa trajetória com o agro, estabelecemos uma valiosa parceria com a WHG, uma instituição financeira de renome que oferece soluções personalizadas de investimento e seguros para o mercado. Unindo nossos esforços, desenvolvemos campanhas e apresentações estratégicas voltadas especificamente para o agro, destacando a expertise e o compromisso da WHG em servir este setor fundamental para o país.",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/whg/",
     },
     {
       logo: Agroecologia,
       text: "Na jornada da Agroecologia, a mais recente marca do Grupo Patense, estamos completamente engajados em todos os aspectos desse empreendimento focado na produção de biofertilizantes. Desde sua concepção até o processo de lançamento, a BMouse está presente em todos os estágios, oferecendo nosso comprometimento total e expertise.",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/agroecologia/",
     },
     {
       logo: NovaGeracao,
       text: "A marca Café Nova Geração e a BMouse compartilharam uma jornada de parceria em um dos setores mais emblemáticos do Brasil: o café. Nosso trabalho colaborativo teve como objetivo não apenas fortalecer a presença do Café Nova Geração no mercado, mas também elevar seu padrão de qualidade e destacá-lo em um setor altamente competitivo.",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/pets-mellon/",
     },
     {
       logo: Pets,
       text: "Mais uma marca do renomado Grupo Patense, a Pets Mellon é uma copacker de produtos relacionados à alimentação animal no Brasil e no mundo, produzindo para diversas marcas do topo do mercado mundial.",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/pets-mellon/",
     },
     {
       logo: Transtriangulo,
       text: "A Transtriângulo é uma transportadora de óleos e gorduras animais e vegetais que se tornou um exemplo de sucesso no setor. ",
-      link: "https:www.google.com",
+      link: "https://www.bmouseproductions.com/view/post_type_case/transtriangulo/",
     },
   ];
 

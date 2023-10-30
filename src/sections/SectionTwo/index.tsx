@@ -12,7 +12,7 @@ export const SectionTwo = () => {
           <iframe
             /* width="560"
             height="315" */
-            src="https://www.youtube.com/embed/dEKFp7gSqiE?si=mMzVT6HdQdMF9w1u"
+            src="https://www.youtube.com/embed/yPDpHUdw9eA?si=jOngZL3Sn_zc0zXv"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             className="rounded-md w-full h-full"
