@@ -71,7 +71,7 @@ export const SectionFour = () => {
               />
             </div>
           </div>
-          <div className="relative z-50 ">
+          <div className="relative z-[1000] ">
             <Timeline className="lg:w-[100%] mt-10">
               {info.map((item, index) => {
                 return (
