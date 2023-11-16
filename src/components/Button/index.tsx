@@ -20,7 +20,8 @@ export const Botao: React.FC<BotaoProps> = ({ estilo = "principal" }) => {
         estilo === "principal"
           ? "bg-[#99CC33] text-[#181b1f]"
           : "bg-[#32592E] text-white "
-      } w-full font-bold rounded-md`}
+      } w-full font-bold rounded-md wpp`}
+      id="botao-contato"
     >
       Entre em contato conosco
     </Button>
