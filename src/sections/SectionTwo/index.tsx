@@ -10,9 +10,7 @@ export const SectionTwo = () => {
         </h1>
         <div className=" bg-[#99CC33] p-2 2x:p-5 rounded-2xl  2xl:w-[760px] 2xl:h-[455px]">
           <iframe
-            /* width="560"
-            height="315" */
-            src="https://www.youtube.com/embed/yPDpHUdw9eA?si=jOngZL3Sn_zc0zXv"
+            src="https://www.youtube.com/embed/GFJB5aT9msM?si=mdrDPx3VdjX0epWv"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             className="rounded-md w-full h-full"
