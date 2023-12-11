@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  z-index: 100 !important;
+}
+
 body {
   /*     font-family: 'Inter', sans-serif; */
   font-family: "Poppins", sans-serif !important;
+  z-index: 100 !important;
 }
 
 body,
 html {
   overflow-x: hidden !important;
+  z-index: 100 !important;
 }
 
 hr {
