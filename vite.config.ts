@@ -1,8 +1,14 @@
+// eslint-disable-next-line
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/agromouse/'
+  resolve: {
+    alias: {
+      '@': '/src',
+    }
+  },
+  base: '/agromouse'
 })

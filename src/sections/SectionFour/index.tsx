@@ -41,7 +41,7 @@ export const SectionFour = () => {
   return (
     <section className="bg-[#181b1f] ">
       <div className="container px-3 m-auto py-20 flex flex-col gap-5 items-center justify-center">
-        <div className="relative z-50">
+        <div className="relative !z-[1000] ">
           <h1 className="text-2xl text-center leading-[2.125rem]  md:leading-[3rem]  md:text-4xl 2xl:text-[2.5rem] 2xl:leading-[3.5rem] text-white w-full md:w-[100%]">
             {" "}
             <strong className="text-[#99CC33]">Veja os benefícios </strong>
@@ -51,9 +51,9 @@ export const SectionFour = () => {
 
         <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-5 pt-20 lg:pt-10">
           <div className="w-full h-full relative flex items-end justify-center ">
-            <div className="relative z-50   ">
+            <div className="relative !z-[1000] pt-14 ">
               <img
-                className="w-full md:max-w-xl lg:max-w-2xl xl:w-full mx-auto"
+                className="w-full md:max-w-xl lg:max-w-2xl xl:w-full mx-auto "
                 data-aos="fade-up"
                 data-aos-duration="3000"
                 data-aos-anchor-placement="bottom-bottom"
@@ -62,7 +62,7 @@ export const SectionFour = () => {
               />
             </div>
 
-            <div className="flex items-center justify-center z-0 absolute top-[-50px] left-[-50px] md:top-[-250px] md:left-[-120px] lg:top-[-250px] lg:left-[0px] xl:top-[-100px] xl:left-[-230px]  2xl:top-[-200px] 2xl:left-[-300px] ">
+            <div className="flex items-center justify-center !z-[101] absolute top-[-50px] left-[-50px] md:top-[-250px] md:left-[-120px] lg:top-[-250px] lg:left-[0px] xl:top-[-100px] xl:left-[-230px]  2xl:top-[-200px] 2xl:left-[-300px] ">
               <Player
                 autoplay
                 loop
