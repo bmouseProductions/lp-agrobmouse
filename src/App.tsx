@@ -1,4 +1,5 @@
 import { ButtonUp } from "./components/ButtonUp";
+import { Chatbot } from "./components/ChatBot/Index";
 import Loading from "./components/Loading";
 import { Hero } from "./sections/Hero";
 import { SectionEight } from "./sections/SectionEight";
@@ -35,6 +36,7 @@ function App() {
             <SectionSeven />
             <SectionEight />
             <ButtonUp />
+            <Chatbot />
             <Footer />
           </>
         )}
