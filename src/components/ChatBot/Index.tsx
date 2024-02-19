@@ -13,7 +13,8 @@ import { Input } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../../assets/logo.svg";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
+
+import wpp from "../../assets/image/whatsapp.png"
 
 // Defina os tipos para Pergunta e HistoricoItem
 type Pergunta = {
@@ -307,11 +308,7 @@ export const Chatbot = () => {
         <div className="fixed bottom-20 right-7 cursor-pointer ">
           <SpeedDial>
             <SpeedDialHandler onClick={handleButtonClick}>
-              <FontAwesomeIcon
-                icon={faCommentDots}
-                className="text-5xl text-[#00FFFF] shadow-2xl "
-                /*   className="rounded-full text-3xl md:text-4xl bg-white  p-3 md:p-4 border-2 border-blue-gray-50 shadow-xl cursor-pointer " */
-              />
+              <img src={wpp} className="w-12 mb-3" alt="" />
               {/* <IconButton
                 color="white"
                 size="lg"

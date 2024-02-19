@@ -1,5 +1,5 @@
 import { Botao } from "../../components/Button";
-import Investimento from "../../assets/image/Marketing/marketing.svg";
+import Investimento from "../../assets/image/audiovisual.webp";
 
 export const SectionEight = () => {
   return (
@@ -39,8 +39,8 @@ export const SectionEight = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center">
-          <img src={Investimento} alt="" className="w-[100%]" />
+        <div className="flex items-center justify-center max-w-[600px]  ">
+          <img src={Investimento} alt="" className="w-[100%] rounded-xl" />
         </div>
       </div>
       <hr />
